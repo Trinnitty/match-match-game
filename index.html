@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+		<button id='playGame'  onmousedown="return false">Play Game</button>
+		<header id='header'>
+				<button id='reset-button' onmousedown="return false">New game</button>
+				<button id='playNewGame'  onmousedown="return false">Play Game</button>
+				<div class="skirts" onselectstart="return false" onmousedown="return false">
+					<h4>Skirt Card</h4>
+					<div class="skirt-1"></div>
+					<div class="skirt-2"></div>
+					<div class="skirt-3"></div>
+				</div>
+				<div class="difficult" onselectstart="return false" onmousedown="return false">
+					<h4>Game Difficulty</h4>
+					<div class="difficult-1">Low 6x2</div>
+					<div class="difficult-2">Medium 6x3</div>
+					<div class="difficult-3">High 6x4</div>
+				</div>
+		</header>
+		<main>
+				<h3>Welcom!</h3>
+				<h2>How to Play</h2>
+				<p>Memory is a counter game where the object is to find pairs.</br>
+						When the game begins, all pistures are hidden.
+				</p>
+				<h2>To play</h2>
+				<ol>
+					<li>Select two cards to try to match the pictures</li>
+					<li>If you match the pictures you can go again </li>
+					<li>If they do not match it is the computer turn them</li>
+					<li>The player that findsall pair wins!</li>
+					<li>Have fun!</li>
+				</ol>
+			</main>
+			<div class="congratulate">WIN!</div>
+</body>
+	<script src='src/js/variables.js'></script>
+	<script src='src/js/shuffleArray.js'></script>
+	<script src='src/js/handler.js'></script>
+	<script src='src/js/checkGame.js'></script>
+	<script src='src/js/chooseCard.js'></script>
+	<script src='src/js/clearGame.js'></script>
+	<script src='src/js/setupGame.js'></script>
+	<script src='src/js/playGame.js'></script>
+	<script src='src/js/getSomeColors.js'></script>
+	<script src='src/js/card.js'></script>
+	<script src='src/js/main.js'></script>
+</html>
