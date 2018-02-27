@@ -17,8 +17,11 @@
       border-radius: 5px;
       background-color: #a89999;
       color: #f7e6e6;
-      margin-top: 250px;
-      margin-left: 450px;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
     }
     #playGame:hover, #playNewGame:hover{
       font-size: 42px;
